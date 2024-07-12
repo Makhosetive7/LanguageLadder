@@ -3,22 +3,25 @@ import styled from "styled-components";
 import Words from "./Words/Words.json";
 
 const FlashCardLevel1 = () => {
-    return (
-        <Container>
-            <WordsContainer>
-                {Object.keys(Words).map((letter) => (
-                    <div key={letter}>
-                        <Letter>{letter}</Letter>
-                        <WordList>
-                            {Words[letter].map((word, index) => (
-                                <p key={index}>{word}</p>
-                            ))}
-                        </WordList>
-                    </div>
-                ))}
-            </WordsContainer>
-        </Container>
-    );
+  return (
+    <Container>
+      <WordsContainer>
+        {Object.keys(Words).map((letter) => (
+          <div key={letter}>
+            <Letter>{letter}</Letter>
+            <WordList>
+              {Words[letter].map((item, index) => (
+                <Card key={index}>
+                  <img src={item.image} alt={item.word} />
+                  <p>{item.word}</p>
+                </Card>
+              ))}
+            </WordList>
+          </div>
+        ))}
+      </WordsContainer>
+    </Container>
+  );
 };
 
 const Container = styled.div`
@@ -40,15 +43,12 @@ const WordsContainer = styled.div`
 `;
 
 const WordList = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+      display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 
-  p {
-    margin: 5px 0;
-    font-size: 12px;
-    font-weight: 500;
-  }
+
 `;
 
 const Letter = styled.h2`
@@ -58,5 +58,32 @@ font-size: 24px;
 font-weight: 900;
 
 `
+
+const Card = styled.div`
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+`;
 
 export default FlashCardLevel1;
