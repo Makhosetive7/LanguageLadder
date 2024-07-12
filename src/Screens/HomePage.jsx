@@ -11,8 +11,8 @@ const HomePage = () => {
     return (
         <Container>
             <WelcomeMessage>
-                <Heading>Elevate your English with LanguageLadder!</Heading>
-                <SubHeading>We offer comprehensive, interactive learning with structured lessons, engaging exercises, and community support for an effective journey.</SubHeading>
+                <h1>Elevate your English with LanguageLadder!</h1>
+                <p>We offer comprehensive, interactive learning with structured lessons, engaging exercises, and community support for an effective journey.</p>
             </WelcomeMessage>
             <Cards>
                 <Card className='flashCards'>
@@ -60,19 +60,20 @@ const Container = styled.div`
 const WelcomeMessage = styled.div`
     text-align: center;
     margin-bottom: 20px;
-`;
 
-const Heading = styled.h1`
-    font-size: 35px;
+    p{
+        font-size: 12px;
+        color: #008170;  
+    }
+
+    h1{
+        font-size: 35px;
     font-weight: bold;
     color: #005B41;
     margin-bottom: 10px;
+    }
 `;
 
-const SubHeading = styled.p`
-    font-size: 12px;
-    color: #008170;
-`;
 
 const Cards = styled.div`
     display: flex;

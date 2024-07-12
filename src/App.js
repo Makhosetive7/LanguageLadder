@@ -6,6 +6,7 @@ import Vocabulary from './Screens/Vocabulary';
 import Grammar from './Screens/Grammar';
 import Pronunciation from './Screens/Pronounciation';
 import Reading from './Screens/Reading';
+import FlashCardLevel1 from './SubScreens/FlashCards/FlashCardLevel1';
 
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
         <Route exact path='/grammar' element={<Grammar />} />
         <Route exact path='/pronunciation' element={<Pronunciation />} />
         <Route exact path='/reading' element={<Reading />} />
+
+        {/*flashcard levels*/}
+        <Route exact path='/flashCardLevel1' element={<FlashCardLevel1 />} />
 
       </Routes>
     </div>
