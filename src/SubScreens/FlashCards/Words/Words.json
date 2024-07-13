@@ -58,7 +58,6 @@
             "word": "Banana",
             "image": "https://www.svgrepo.com/show/530359/banana.svg"
         },
-
         {
             "word": "Book",
             "image": "https://www.svgrepo.com/show/513272/book-closed.svg"
@@ -121,7 +120,6 @@
         }
     ],
     "C": [
-
         {
             "word": "Cat",
             "image": "https://www.svgrepo.com/show/395985/cat.svg"
@@ -216,12 +214,8 @@
             "word": "Donkey",
             "image": "https://www.svgrepo.com/show/312056/donkey.svg"
         }
-
-     
-
     ],
     "E": [
-
         {
             "word": "Eat",
             "image": "https://www.svgrepo.com/show/412739/eat.svg"
@@ -303,7 +297,8 @@
         {
             "word": "House",
             "image": "https://www.svgrepo.com/show/513309/house.svg"
-        },        {
+        },
+        {
             "word": "Hat",
             "image": "https://www.svgrepo.com/show/530597/hat.svg"
         },
@@ -319,10 +314,8 @@
             "word": "Hospital",
             "image": "https://www.svgrepo.com/show/500071/hospital.svg"
         }
-       
     ],
     "I": [
-
         {
             "word": "Insect",
             "image": "https://www.svgrepo.com/show/401239/bug.svg"
@@ -335,8 +328,6 @@
             "word": "Internet",
             "image": "https://www.svgrepo.com/show/477112/internet.svg"
         }
-      
-      
     ],
     "J": [
         {
@@ -373,629 +364,259 @@
             "word": "Key",
             "image": "https://www.svgrepo.com/show/503647/kettle.svg"
         }
-        
     ],
     "M": [
-        "Mango",
-        "Milk",
-        "Monday",
-        "Mom",
-        "Mouse",
-        "Mountain",
-        "Music",
-        "Money",
-        "Morning",
-        "Month",
-        "Map",
-        "Movie",
-        "Meal",
-        "Market",
-        "Mirror",
-        "Math",
-        "Museum",
-        "Machine",
-        "Mail",
-        "Match",
-        "Moon",
-        "Motorcycle",
-        "Monkey",
-        "Mango",
-        "Milk",
-        "Monday",
-        "Mom",
-        "Mouse",
-        "Mountain",
-        "Music",
-        "Money",
-        "Morning",
-        "Month",
-        "Map",
-        "Movie",
-        "Meal",
-        "Market",
-        "Mirror",
-        "Math",
-        "Museum",
-        "Machine",
-        "Mail",
-        "Match",
-        "Moon",
-        "Motorcycle",
-        "Monkey"
+
+        {
+            "word": "Mango",
+            "image": "https://www.svgrepo.com/show/397130/mango.svg"
+        },
+        {
+            "word": "Milk",
+            "image": "https://www.svgrepo.com/show/485133/milk-carton.svg"
+        },
+        {
+            "word": "Mouse",
+            "image": "https://www.svgrepo.com/show/402177/mouse.svg"
+        },
+        {
+            "word": "Monkey",
+            "image": "https://www.svgrepo.com/show/503647/kettle.svg"
+        }
+    
     ],
     "N": [
-        "Nose",
-        "Night",
-        "Name",
-        "Now",
-        "Number",
-        "North",
-        "Notebook",
-        "New",
-        "Near",
-        "Next",
-        "Nice",
-        "Need",
-        "Nature",
-        "Nest",
-        "Nurse",
-        "Nail",
-        "Neck",
-        "No",
-        "Nothing",
-        "Nap",
-        "Nose",
-        "Night",
-        "Name",
-        "Now",
-        "Number",
-        "North",
-        "Notebook",
-        "New",
-        "Near",
-        "Next",
-        "Nice",
-        "Need",
-        "Nature",
-        "Nest",
-        "Nurse",
-        "Nail",
-        "Neck",
-        "No",
-        "Nothing",
-        "Nap"
+        {
+            "word": "Nose",
+            "image": "https://www.svgrepo.com/show/406733/nose-dark-skin-tone.svg"
+        },
+        {
+            "word": "Nurse",
+            "image": "https://www.svgrepo.com/show/396621/health-worker.svg"
+        }
+      
     ],
     "O": [
-        "Orange",
-        "Octopus",
-        "Ocean",
-        "One",
-        "Outside",
-        "Open",
-        "Owl",
-        "Office",
-        "Old",
-        "Onion",
-        "Oval",
-        "Oven",
-        "Orchestra",
-        "Organ",
-        "Olympics",
-        "Orange",
-        "Octopus",
-        "Ocean",
-        "One",
-        "Outside",
-        "Open",
-        "Owl",
-        "Office",
-        "Old",
-        "Onion",
-        "Oval",
-        "Oven",
-        "Orchestra",
-        "Organ",
-        "Olympics",
-        "Orange",
-        "Octopus",
-        "Ocean",
-        "One",
-        "Outside",
-        "Open",
-        "Owl",
-        "Office",
-        "Old",
-        "Onion",
-        "Oval",
-        "Oven",
-        "Orchestra",
-        "Organ",
-        "Olympics"
+        {
+            "word": "Orange",
+            "image": "https://www.svgrepo.com/show/474519/orange.svg"
+        },
+        {
+            "word": "Office",
+            "image": "https://www.svgrepo.com/show/530656/office-chair.svg"
+        },
+        {
+            "word": "Onion",
+            "image": "https://www.svgrepo.com/show/263356/onion.svg"
+        },
+        {
+            "word": "Owl",
+            "image": "https://www.svgrepo.com/show/406825/owl.svg"
+        }
     ],
     "P": [
-        "Please",
-        "Pronunciation",
-        "Pencil",
-        "Play",
-        "Purple",
-        "Park",
-        "Party",
-        "Phone",
-        "Penguin",
-        "Pizza",
-        "Paper",
-        "Piano",
-        "Pilot",
-        "Paint",
-        "Picture",
-        "Please",
-        "Pronunciation",
-        "Pencil",
-        "Play",
-        "Purple",
-        "Park",
-        "Party",
-        "Phone",
-        "Penguin",
-        "Pizza",
-        "Paper",
-        "Piano",
-        "Pilot",
-        "Paint",
-        "Picture",
-        "Please",
-        "Pronunciation",
-        "Pencil",
-        "Play",
-        "Purple",
-        "Park",
-        "Party",
-        "Phone",
-        "Penguin",
-        "Pizza",
-        "Paper",
-        "Piano",
-        "Pilot",
-        "Paint",
-        "Picture"
+
+        {
+            "word": "Pencil",
+            "image": "https://www.svgrepo.com/show/513326/pencil.svg"
+        },
+        {
+            "word": "Piano",
+            "image": "https://www.svgrepo.com/show/149663/piano.svg"
+        },
+        {
+            "word": "Paint",
+            "image": "https://www.svgrepo.com/show/284308/paint-bucket.svg"
+        }
     ],
     "Q": [
-        "Questions",
-        "Quiet",
-        "Quick",
-        "Quiz",
-        "Queen",
-        "Quarter",
-        "Queue",
-        "Quality",
-        "Quote",
-        "Quest",
-        "Questions",
-        "Quiet",
-        "Quick",
-        "Quiz",
-        "Queen",
-        "Quarter",
-        "Queue",
-        "Quality",
-        "Quote",
-        "Quest",
-        "Questions",
-        "Quiet",
-        "Quick",
-        "Quiz",
-        "Queen",
-        "Quarter",
-        "Queue",
-        "Quality",
-        "Quote",
-        "Quest",
-        "Questions",
-        "Quiet",
-        "Quick",
-        "Quiz",
-        "Queen",
-        "Quarter",
-        "Queue",
-        "Quality",
-        "Quote",
-        "Quest"
+
+       
     ],
     "R": [
-        "Red",
-        "Reading",
-        "Run",
-        "Room",
-        "Rain",
-        "Rabbit",
-        "Radio",
-        "Ride",
-        "Road",
-        "Robot",
-        "River",
-        "Rose",
-        "Ring",
-        "Restaurant",
-        "Round",
-        "Red",
-        "Reading",
-        "Run",
-        "Room",
-        "Rain",
-        "Rabbit",
-        "Radio",
-        "Ride",
-        "Road",
-        "Robot",
-        "River",
-        "Rose",
-        "Ring",
-        "Restaurant",
-        "Round",
-        "Red",
-        "Reading",
-        "Run",
-        "Room",
-        "Rain",
-        "Rabbit",
-        "Radio",
-        "Ride",
-        "Road",
-        "Robot",
-        "River",
-        "Rose",
-        "Ring",
-        "Restaurant",
-        "Round"
+        {
+            "word": "Radio",
+            "image": "https://www.svgrepo.com/show/499708/radio.svg"
+        },
+        {
+            "word": "Rabbit",
+            "image": "https://www.svgrepo.com/show/407273/rabbit.svg"
+        },
+        {
+            "word": "Run",
+            "image": "https://www.svgrepo.com/show/494384/run.svg"
+        },
+        {
+            "word": "Rose",
+            "image": "https://www.svgrepo.com/show/407360/rose.svg"
+        },
+        {
+            "word": "River",
+            "image": "https://www.svgrepo.com/show/286392/river.svg"
+        },
+        {
+            "word": "Ring",
+            "image": "https://www.svgrepo.com/show/402618/ring.svg"
+        },
+        {
+            "word": "Rain",
+            "image": "https://www.svgrepo.com/show/262131/rain.svg"
+        },
+        {
+            "word": "Road",
+            "image": "https://www.svgrepo.com/show/273345/road.svg"
+        }
+       
+
     ],
     "S": [
-        "Sister",
-        "Saturday",
-        "Sunday",
-        "Sleep",
-        "School",
-        "Swim",
-        "Spoon",
-        "Sun",
-        "Star",
-        "Snake",
-        "Sand",
-        "Shoe",
-        "Sing",
-        "Story",
-        "Soup",
-        "Surprise",
-        "Sister",
-        "Saturday",
-        "Sunday",
-        "Sleep",
-        "School",
-        "Swim",
-        "Spoon",
-        "Sun",
-        "Star",
-        "Snake",
-        "Sand",
-        "Shoe",
-        "Sing",
-        "Story",
-        "Soup",
-        "Surprise",
-        "Sister",
-        "Saturday",
-        "Sunday",
-        "Sleep",
-        "School",
-        "Swim",
-        "Spoon",
-        "Sun",
-        "Star",
-        "Snake",
-        "Sand",
-        "Shoe",
-        "Sing",
-        "Story",
-        "Soup",
-        "Surprise"
+
+        {
+            "word": "School",
+            "image": "https://www.svgrepo.com/show/402648/school.svg"
+        },
+        {
+            "word": "Spoon",
+            "image": "https://www.svgrepo.com/show/402737/spoon.svg"
+        },
+        {
+            "word": "Sun",
+            "image": "https://www.svgrepo.com/show/513351/sun.svg"
+        },
+        {
+            "word": "Star",
+            "image": "https://www.svgrepo.com/show/285295/stars-star.svg"
+        },
+        {
+            "word": "Snake",
+            "image": "https://www.svgrepo.com/show/289284/snake.svg"
+        },
+        {
+            "word": "Shoe",
+            "image": "https://www.svgrepo.com/show/486345/shoe.svg"
+        }
+    
+
     ],
     "T": [
-        "Table",
-        "Thank you",
-        "Tuesday",
-        "Thursday",
-        "Toy",
-        "Teach",
-        "Tree",
-        "Tiger",
-        "Tail",
-        "Train",
-        "Town",
-        "Tea",
-        "Taste",
-        "Teacher",
-        "Tennis",
-        "Table",
-        "Thank you",
-        "Tuesday",
-        "Thursday",
-        "Toy",
-        "Teach",
-        "Tree",
-        "Tiger",
-        "Tail",
-        "Train",
-        "Town",
-        "Tea",
-        "Taste",
-        "Teacher",
-        "Tennis",
-        "Table",
-        "Thank you",
-        "Tuesday",
-        "Thursday",
-        "Toy",
-        "Teach",
-        "Tree",
-        "Tiger",
-        "Tail",
-        "Train",
-        "Town",
-        "Tea",
-        "Taste",
-        "Teacher",
-        "Tennis"
+
+        {
+            "word": "Table",
+            "image": "https://www.svgrepo.com/show/464678/desk-5.svg"
+        },
+        {
+            "word": "Tie",
+            "image": "https://www.svgrepo.com/show/484594/tie.svg"
+        },
+        {
+            "word": "Toy",
+            "image": "https://www.svgrepo.com/show/267719/crib-toy-baby-toy.svg"
+        },
+        {
+            "word": "Tree",
+            "image": "https://www.svgrepo.com/show/475445/tree.svg"
+        },
+        {
+            "word": "Tail",
+            "image": "https://www.svgrepo.com/show/307453/whale-tail-wild-wildlife-big.svg"
+        },
+        {
+            "word": "Tea",
+            "image": "https://www.svgrepo.com/show/513350/tea.svg"
+        },
+        {
+            "word": "Train",
+            "image": "https://www.svgrepo.com/show/493742/train.svg"
+        },
+        {
+            "word": "Teacher",
+            "image": "https://www.svgrepo.com/show/407579/teacher-medium-dark-skin-tone.svg"
+        }
     ],
     "U": [
-        "Understand",
-        "Up",
-        "Under",
-        "Umbrella",
-        "Use",
-        "Ugly",
-        "Unicorn",
-        "Uniform",
-        "Understand",
-        "Up",
-        "Under",
-        "Umbrella",
-        "Use",
-        "Ugly",
-        "Unicorn",
-        "Uniform",
-        "Understand",
-        "Up",
-        "Under",
-        "Umbrella",
-        "Use",
-        "Ugly",
-        "Unicorn",
-        "Uniform",
-        "Understand",
-        "Up",
-        "Under",
-        "Umbrella",
-        "Use",
-        "Ugly",
-        "Unicorn",
-        "Uniform",
-        "Understand",
-        "Up",
-        "Under",
-        "Umbrella",
-        "Use",
-        "Ugly",
-        "Unicorn",
-        "Uniform"
+        {
+            "word": "Umbrella",
+            "image": "https://www.svgrepo.com/show/485064/umbrella-part-3.svg"
+        },
+        {
+            "word": "Uniform",
+            "image": "https://www.svgrepo.com/show/263057/uniform.svg"
+        }
+
     ],
     "V": [
-        "Vocabulary",
-        "Van",
-        "Violin",
-        "Visit",
-        "Voice",
-        "Video",
-        "Vegetable",
-        "Village",
-        "Vacation",
-        "Value",
-        "Vocabulary",
-        "Van",
-        "Violin",
-        "Visit",
-        "Voice",
-        "Video",
-        "Vegetable",
-        "Village",
-        "Vacation",
-        "Value",
-        "Vocabulary",
-        "Van",
-        "Violin",
-        "Visit",
-        "Voice",
-        "Video",
-        "Vegetable",
-        "Village",
-        "Vacation",
-        "Value",
-        "Vocabulary",
-        "Van",
-        "Violin",
-        "Visit",
-        "Voice",
-        "Video",
-        "Vegetable",
-        "Village",
-        "Vacation",
-        "Value"
+        {
+            "word": "Van",
+            "image": "https://www.svgrepo.com/show/295686/van.svg"
+        },
+        {
+            "word": "Village",
+            "image": "https://www.svgrepo.com/show/229534/village.svg"
+        },   {
+            "word": "Vegetable",
+            "image": "https://www.svgrepo.com/show/287562/vegetables-salad.svg"
+        },
+        {
+            "word": "Violin",
+            "image": "https://www.svgrepo.com/show/398566/violin.svg"
+        }
+     
     ],
     "W": [
-        "Wednesday",
-        "Water",
-        "Welcome",
-        "Work",
-        "Walk",
-        "Wind",
-        "Winter",
-        "White",
-        "Watch",
-        "Week",
-        "Warm",
-        "Wash",
-        "Wet",
-        "Write",
-        "Wait",
-        "Wednesday",
-        "Water",
-        "Welcome",
-        "Work",
-        "Walk",
-        "Wind",
-        "Winter",
-        "White",
-        "Watch",
-        "Week",
-        "Warm",
-        "Wash",
-        "Wet",
-        "Write",
-        "Wait",
-        "Wednesday",
-        "Water",
-        "Welcome",
-        "Work",
-        "Walk",
-        "Wind",
-        "Winter",
-        "White",
-        "Watch",
-        "Week",
-        "Warm",
-        "Wash",
-        "Wet",
-        "Write",
-        "Wait"
+        {
+            "word": "Water",
+            "image": "https://www.svgrepo.com/show/503801/water-drop.svg"
+        },
+        {
+            "word": "Walk",
+            "image": "https://www.svgrepo.com/show/408192/woman-walking-light-skin-tone.svg"
+        },
+        {
+            "word": "Write",
+            "image": "https://www.svgrepo.com/show/477094/write-document.svg"
+        },
+        {
+            "word": "Wash",
+            "image": "https://www.svgrepo.com/show/287690/wash.svg"
+        },
+        {
+            "word": "Work",
+            "image": "https://www.svgrepo.com/show/428757/work-is-money.svg"
+        },   {
+            "word": "Wind",
+            "image": "https://www.svgrepo.com/show/463735/wind.svg"
+        }
     ],
     "X": [
-        "Xylophone",
-        "X-ray",
-        "Xbox",
-        "Xerox",
-        "Xylophone",
-        "X-ray",
-        "Xbox",
-        "Xerox",
-        "Xylophone",
-        "X-ray",
-        "Xbox",
-        "Xerox",
-        "Xylophone",
-        "X-ray",
-        "Xbox",
-        "Xerox",
-        "Xylophone",
-        "X-ray",
-        "Xbox",
-        "Xerox",
-        "Xylophone",
-        "X-ray",
-        "Xbox",
-        "Xerox",
-        "Xylophone",
-        "X-ray",
-        "Xbox",
-        "Xerox",
-        "Xylophone",
-        "X-ray",
-        "Xbox",
-        "Xerox",
-        "Xylophone",
-        "X-ray",
-        "Xbox",
-        "Xerox",
-        "Xylophone",
-        "X-ray",
-        "Xbox",
-        "Xerox"
+        {
+            "word": "X-box",
+            "image": "https://www.svgrepo.com/show/275643/game-console.svg"
+        }
     ],
     "Y": [
-        "Yellow",
-        "Yes",
-        "Yard",
-        "Yesterday",
-        "Yogurt",
-        "Yawn",
-        "Yacht",
-        "Young",
-        "Year",
-        "Yolk",
-        "Yellow",
-        "Yes",
-        "Yard",
-        "Yesterday",
-        "Yogurt",
-        "Yawn",
-        "Yacht",
-        "Young",
-        "Year",
-        "Yolk",
-        "Yellow",
-        "Yes",
-        "Yard",
-        "Yesterday",
-        "Yogurt",
-        "Yawn",
-        "Yacht",
-        "Young",
-        "Year",
-        "Yolk",
-        "Yellow",
-        "Yes",
-        "Yard",
-        "Yesterday",
-        "Yogurt",
-        "Yawn",
-        "Yacht",
-        "Young",
-        "Year",
-        "Yolk"
+        {
+            "word": "Yard",
+            "image": "https://www.svgrepo.com/show/401952/house-with-garden.svg"
+        },
+        {
+            "word": "Yoghurt",
+            "image": "https://www.svgrepo.com/show/48897/yogurt.svg"
+        }
+
+
     ],
     "Z": [
-        "Zebra",
-        "Zero",
-        "Zip",
-        "Zoo",
-        "Zone",
-        "Zigzag",
-        "Zap",
-        "Zoom",
-        "Zombie",
-        "Zebra",
-        "Zero",
-        "Zip",
-        "Zoo",
-        "Zone",
-        "Zigzag",
-        "Zap",
-        "Zoom",
-        "Zombie",
-        "Zebra",
-        "Zero",
-        "Zip",
-        "Zoo",
-        "Zone",
-        "Zigzag",
-        "Zap",
-        "Zoom",
-        "Zombie",
-        "Zebra",
-        "Zero",
-        "Zip",
-        "Zoo",
-        "Zone",
-        "Zigzag",
-        "Zap",
-        "Zoom",
-        "Zombie"
+        {
+            "word": "Zebra",
+            "image": "https://www.svgrepo.com/show/398726/zebra.svg"
+        },
+        {
+            "word": "Zip",
+            "image": "https://www.svgrepo.com/show/413467/zip.svg"
+        },
+        {
+            "word": "Zoo",
+            "image": "https://www.svgrepo.com/show/278675/elephant-cage.svg"
+        }
     ]
 }
