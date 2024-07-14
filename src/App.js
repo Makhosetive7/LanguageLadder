@@ -11,6 +11,9 @@ import GreetingAndPoliteness from './SubScreens/Expressions/GreetingAndPotlitene
 import BasicDescription from './SubScreens/Expressions/BasicDescription';
 import AskForHelp from './SubScreens/Expressions/AskForHelp';
 import DailyRoutine from './SubScreens/Expressions/DailyRoutine';
+import JuniorReading from './SubScreens/Reading/JuniorReading';
+import MidReading from './SubScreens/Reading/MidReading';
+import ExpectReading from './SubScreens/Reading/ExpectReading';
 
 
 function App() {
@@ -32,6 +35,11 @@ function App() {
 
         {/*FLASHCARDS */}
         <Route exact path='/flashCardLevel1' element={<FlashCardLevel1 />} />
+
+        {/*READING */}
+        <Route exact path='/juniorReading' element={<JuniorReading/>} />
+        <Route exact path='/midReading' element={<MidReading/>} />
+        <Route exact path='/expectReading' element={<ExpectReading/>} />
 
       </Routes>
     </div>
