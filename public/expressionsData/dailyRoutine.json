@@ -1,0 +1,179 @@
+{
+    "dailyRoutine": [
+        {
+            "id": 1,
+            "phrase": "I wake up at 7 AM.",
+            "image": "https://www.svgrepo.com/show/276633/ante-meridiem-morning.svg"
+        },
+        {
+            "id": 2,
+            "phrase": "I brush my teeth every morning.",
+            "image": "https://www.svgrepo.com/show/287274/toothbrush.svg"
+        },
+        {
+            "id": 3,
+            "phrase": "I take a shower before going to bed.",
+            "image": "https://www.svgrepo.com/show/477619/shower-pictogram-2.svg"
+        },
+        {
+            "id": 4,
+            "phrase": "I eat breakfast at 8 o'clock.",
+            "image": "https://www.svgrepo.com/show/503660/breakfast.svg"
+        },
+        {
+            "id": 5,
+            "phrase": "I go to work by bus.",
+            "image": "https://www.svgrepo.com/show/348826/travel-bus.svg"
+        },
+        {
+            "id": 6,
+            "phrase": "I have lunch at noon.",
+            "image": "https://www.svgrepo.com/show/384982/curry-rice-lunch-dish-food-emoj.svg"
+        },
+        {
+            "id": 7,
+            "phrase": "I walk my dog in the evening.",
+            "image": "https://www.svgrepo.com/show/500086/dog.svg"
+        },
+        {
+            "id": 8,
+            "phrase": "I water the plants every day.",
+            "image": "https://www.svgrepo.com/show/422958/garden-fertilizer-flower.svg"
+        },
+        {
+            "id": 9,
+            "phrase": "I exercise at the gym twice a week.",
+            "image": "https://www.svgrepo.com/show/475554/gym.svg"
+        },
+        {
+            "id": 10,
+            "phrase": "I watch TV before bedtime.",
+            "image": "https://www.svgrepo.com/show/501835/tv.svg"
+        },
+        {
+            "id": 11,
+            "phrase": "I do the dishes after dinner.",
+            "image": "https://www.svgrepo.com/show/490475/washing-dishes.svg"
+        },
+        {
+            "id": 12,
+            "phrase": "I read a book in the evening.",
+            "image": "https://www.svgrepo.com/show/474959/reading.svg"
+        },
+        {
+            "id": 13,
+            "phrase": "I take a nap on weekends.",
+            "image": "https://www.svgrepo.com/show/492568/sleep.svg"
+        },
+        {
+            "id": 14,
+            "phrase": "I check my email in the morning.",
+            "image": "https://www.svgrepo.com/show/494518/email-chat.svg"
+        },
+        {
+            "id": 15,
+            "phrase": "I walk to school every day.",
+            "image": "https://www.svgrepo.com/show/402648/school.svg"
+        },
+        {
+            "id": 16,
+            "phrase": "I do laundry on Sundays.",
+            "image": "https://www.svgrepo.com/show/278737/laundry.svg"
+        },
+        {
+            "id": 17,
+            "phrase": "I clean my room on Saturdays.",
+            "image": "https://www.svgrepo.com/show/121443/cleaning.svg"
+        },
+        {
+            "id": 18,
+            "phrase": "I cook dinner for my family.",
+            "image": "https://www.svgrepo.com/show/287740/cooking-stew.svg"
+        },
+        {
+            "id": 19,
+            "phrase": "I take the trash out on Thursdays.",
+            "image": "https://www.svgrepo.com/show/390574/bin-delete-ecology-garbage-recycle-remove.svg"
+        },
+        {
+            "id": 20,
+            "phrase": "I feed the pets in the evening.",
+            "image": "https://www.svgrepo.com/show/448093/pets.svg"
+        },
+        {
+            "id": 21,
+            "phrase": "I study English for one hour every day.",
+            "image": "https://www.svgrepo.com/show/308099/study-research-scrutinize-search.svg"
+        },
+        {
+            "id": 22,
+            "phrase": "I go shopping on weekends.",
+            "image": "https://www.svgrepo.com/show/530393/shopping-cart.svg"
+        },
+        {
+            "id": 23,
+            "phrase": "I walk in the park after work.",
+            "image": "https://www.svgrepo.com/show/280395/park.svg"
+        },
+        {
+            "id": 24,
+            "phrase": "I go to bed at 10 PM.",
+            "image": "https://www.svgrepo.com/show/287763/sleep.svg"
+        },
+        {
+            "id": 25,
+            "phrase": "I take a break at 3 PM.",
+            "image": "https://www.svgrepo.com/show/189772/break.svg"
+        },
+        {
+            "id": 26,
+            "phrase": "I listen to music while cleaning.",
+            "image": "https://www.svgrepo.com/show/523575/music-notes.svg"
+        },
+        {
+            "id": 27,
+            "phrase": "I make coffee in the morning.",
+            "image": "https://www.svgrepo.com/show/513895/coffee-cups-tea.svg"
+        },
+        {
+            "id": 28,
+            "phrase": "I write in my journal every night.",
+            "image": "https://www.svgrepo.com/show/477094/write-document.svg"
+        },
+        {
+            "id": 29,
+            "phrase": "I call my parents every weekend.",
+            "image": "https://www.svgrepo.com/show/369480/phonecall.svg"
+        },
+        {
+            "id": 30,
+            "phrase": "I check the weather forecast every morning.",
+            "image": "https://www.svgrepo.com/show/384326/forecast-weather-snow-cloud-winter-cold-night.svg"
+        },
+        {
+            "id": 31,
+            "phrase": "I take a bath before bedtime.",
+            "image": "https://www.svgrepo.com/show/477592/bath-1.svg"
+        },
+        {
+            "id": 32,
+            "phrase": "I prepare lunch for work.",
+            "image": "https://www.svgrepo.com/show/114762/lunch.svg"
+        },
+        {
+            "id": 33,
+            "phrase": "I go jogging in the morning.",
+            "image": "https://www.svgrepo.com/show/493415/man-jogging.svg"
+        },
+        {
+            "id": 34,
+            "phrase": "I clean the windows on Sundays.",
+            "image": "https://www.svgrepo.com/show/477210/window-1.svg"
+        },
+        {
+            "id": 35,
+            "phrase": "I iron clothes on Saturdays.",
+            "image": "https://www.svgrepo.com/show/287694/ironing-iron.svg"
+        }
+    ]
+}

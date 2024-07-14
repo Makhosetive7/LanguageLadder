@@ -1,0 +1,159 @@
+{
+    "basicDescription": [
+        {
+            "id": 1,
+            "phrase": "I am happy.",
+            "image": "https://www.svgrepo.com/show/492551/happy-2.svg"
+        },
+        {
+            "id": 2,
+            "phrase": "It is cold outside.",
+            "image": "https://www.svgrepo.com/show/466961/winter.svg"
+        },
+        {
+            "id": 3,
+            "phrase": "She is tall.",
+            "image": "https://www.svgrepo.com/show/312822/person-standing.svg"
+        },
+        {
+            "id": 4,
+            "phrase": "He is funny.",
+            "image": "https://www.svgrepo.com/show/521427/zany-face.svg"
+        },
+        {
+            "id": 5,
+            "phrase": "The book is interesting.",
+            "image": "https://www.svgrepo.com/show/65101/books.svg"
+        },
+        {
+            "id": 6,
+            "phrase": "They are friendly.",
+            "image": "https://www.svgrepo.com/show/199629/kindergarten.svg"
+        },
+        {
+            "id": 7,
+            "phrase": "It's hot in here.",
+            "image": "https://www.svgrepo.com/show/47256/sunny-day.svg"
+        },
+        {
+            "id": 8,
+            "phrase": "The movie is exciting.",
+            "image": "https://www.svgrepo.com/show/522195/movie-recorder.svg"
+        },
+        {
+            "id": 9,
+            "phrase": "She looks tired.",
+            "image": "https://www.svgrepo.com/show/174362/tired-man-resting-lying-on-a-bed.svg"
+        },
+        {
+            "id": 10,
+            "phrase": "He seems happy.",
+            "image": "https://www.svgrepo.com/show/492551/happy-2.svg"
+        },
+        {
+            "id": 11,
+            "phrase": "The food tastes delicious.",
+            "image": "https://www.svgrepo.com/show/482303/food-1.svg"
+        },
+        {
+            "id": 12,
+            "phrase": "The weather is beautiful.",
+            "image": "https://www.svgrepo.com/show/503853/weather.svg"
+        },
+        {
+            "id": 13,
+            "phrase": "The cat is cute.",
+            "image": "https://www.svgrepo.com/show/500106/cat.svg"
+        },
+        {
+            "id": 14,
+            "phrase": "The dog looks sleepy.",
+            "image": "https://www.svgrepo.com/show/500086/dog.svg"
+        },
+        {
+            "id": 15,
+            "phrase": "The house is big.",
+            "image": "https://www.svgrepo.com/show/513309/house.svg"
+        },
+        {
+            "id": 16,
+            "phrase": "The car is fast.",
+            "image": "https://www.svgrepo.com/show/503783/car.svg"
+        },
+        {
+            "id": 17,
+            "phrase": "She sounds upset.",
+            "image": "https://www.svgrepo.com/show/521429/angry-face-with-horns.svg"
+        },
+        {
+            "id": 18,
+            "phrase": "He appears confident.",
+            "image": "https://www.svgrepo.com/show/492883/business-person-with-a-resolved-expression.svg"
+        },
+        {
+            "id": 19,
+            "phrase": "The music is loud.",
+            "image": "https://www.svgrepo.com/show/502422/music.svg"
+        },
+        {
+            "id": 20,
+            "phrase": "The colors are bright.",
+            "image": "https://www.svgrepo.com/show/288317/colors-paint.svg"
+        },
+        {
+            "id": 21,
+            "phrase": "This job is interesting.",
+            "image": "https://www.svgrepo.com/show/31492/job-search.svg"
+        },
+        {
+            "id": 22,
+            "phrase": "The game is fun.",
+            "image": "https://www.svgrepo.com/show/521685/game-controller.svg"
+        },
+        {
+            "id": 23,
+            "phrase": "The party was great.",
+            "image": "https://www.svgrepo.com/show/397713/party-popper.svg"
+        },
+        {
+            "id": 24,
+            "phrase": "She looks serious.",
+            "image": "https://www.svgrepo.com/show/493135/women-in-their-40s-and-50s-whole-body.svg"
+        },
+        {
+            "id": 25,
+            "phrase": "The flowers smell nice.",
+            "image": "https://www.svgrepo.com/show/492635/flower.svg"
+        },
+        {
+            "id": 26,
+            "phrase": "He feels cold.",
+            "image": "https://www.svgrepo.com/show/466961/winter.svg"
+        },
+        {
+            "id": 27,
+            "phrase": "The mountain is high.",
+            "image": "https://www.svgrepo.com/show/494541/mountain-top-summit-sunrise.svg"
+        },
+        {
+            "id": 28,
+            "phrase": "The water is warm.",
+            "image": "https://www.svgrepo.com/show/493896/water-resources.svg"
+        },
+        {
+            "id": 29,
+            "phrase": "The shoes are comfortable.",
+            "image": "https://www.svgrepo.com/show/499928/shoe.svg"
+        },
+        {
+            "id": 30,
+            "phrase": "The city is busy.",
+            "image": "https://www.svgrepo.com/show/476994/city.svg"
+        },
+        {
+            "id": 31,
+            "phrase": "She appears happy.",
+            "image": "https://www.svgrepo.com/show/492551/happy-2.svg"
+        }
+    ]
+}

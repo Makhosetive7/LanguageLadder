@@ -1,0 +1,205 @@
+{
+    "AskForHelp": [
+      {
+        "id": 1,
+        "phrase": "Can you help me?"
+      },
+      {
+        "id": 2,
+        "phrase": "Could you please assist me?"
+      },
+      {
+        "id": 3,
+        "phrase": "I need your help."
+      },
+      {
+        "id": 4,
+        "phrase": "Would you mind helping me?"
+      },
+      {
+        "id": 5,
+        "phrase": "Could you lend me a hand?"
+      },
+      {
+        "id": 6,
+        "phrase": "I could use some help."
+      },
+      {
+        "id": 7,
+        "phrase": "Can you give me a hand?"
+      },
+      {
+        "id": 8,
+        "phrase": "Would you be able to assist me?"
+      },
+      {
+        "id": 9,
+        "phrase": "I'm having trouble with this. Could you help?"
+      },
+      {
+        "id": 10,
+        "phrase": "Please, could you show me how to do this?"
+      },
+      {
+        "id": 11,
+        "phrase": "I'm not sure what to do. Can you help?"
+      },
+      {
+        "id": 12,
+        "phrase": "Do you know how to fix this?"
+      },
+      {
+        "id": 13,
+        "phrase": "Could you spare a moment to help me?"
+      },
+      {
+        "id": 14,
+        "phrase": "I'm stuck. Can you give me some guidance?"
+      },
+      {
+        "id": 15,
+        "phrase": "I'm lost. Could you point me in the right direction?"
+      },
+      {
+        "id": 16,
+        "phrase": "I don't understand. Could you explain it to me?"
+      },
+      {
+        "id": 17,
+        "phrase": "I need assistance. Can you lend a hand?"
+      },
+      {
+        "id": 18,
+        "phrase": "I'm struggling. Could you help me out?"
+      },
+      {
+        "id": 19,
+        "phrase": "Could you give me a hand with this problem?"
+      },
+      {
+        "id": 20,
+        "phrase": "I'm having difficulty. Can you assist?"
+      },
+      {
+        "id": 21,
+        "phrase": "Can you support me with this task?"
+      },
+      {
+        "id": 22,
+        "phrase": "I'm not sure what to do. Can you show me?"
+      },
+      {
+        "id": 23,
+        "phrase": "Can you lend me some help?"
+      },
+      {
+        "id": 24,
+        "phrase": "Could you lend me a hand with this?"
+      },
+      {
+        "id": 25,
+        "phrase": "I'm struggling. Could you give me a hand?"
+      },
+      {
+        "id": 26,
+        "phrase": "Can you assist me with this issue?"
+      },
+      {
+        "id": 27,
+        "phrase": "Would you mind helping me out?"
+      },
+      {
+        "id": 28,
+        "phrase": "Could you do me a favor?"
+      },
+      {
+        "id": 29,
+        "phrase": "I need your assistance. Can you help?"
+      },
+      {
+        "id": 30,
+        "phrase": "Can you guide me through this problem?"
+      },
+      {
+        "id": 31,
+        "phrase": "Can you show me how to do this?"
+      },
+      {
+        "id": 32,
+        "phrase": "I could use your help."
+      },
+      {
+        "id": 33,
+        "phrase": "Can you please help me with this?"
+      },
+      {
+        "id": 34,
+        "phrase": "Would you mind giving me a hand?"
+      },
+      {
+        "id": 35,
+        "phrase": "I'm in need of your assistance."
+      },
+      {
+        "id": 36,
+        "phrase": "Can you provide me with some assistance?"
+      },
+      {
+        "id": 37,
+        "phrase": "Could you lend a hand with this problem?"
+      },
+      {
+        "id": 38,
+        "phrase": "Can you assist me in solving this issue?"
+      },
+      {
+        "id": 39,
+        "phrase": "Would you be willing to help me?"
+      },
+      {
+        "id": 40,
+        "phrase": "I need some help. Could you assist?"
+      },
+      {
+        "id": 41,
+        "phrase": "I'm seeking your help. Can you lend a hand?"
+      },
+      {
+        "id": 42,
+        "phrase": "Could you give me some help with this?"
+      },
+      {
+        "id": 43,
+        "phrase": "I could use some assistance. Can you help?"
+      },
+      {
+        "id": 44,
+        "phrase": "Would you be able to lend a hand?"
+      },
+      {
+        "id": 45,
+        "phrase": "I'm in a bit of a bind. Can you help me out?"
+      },
+      {
+        "id": 46,
+        "phrase": "Can you do me a favor and assist with this?"
+      },
+      {
+        "id": 47,
+        "phrase": "I'm having difficulty understanding. Can you explain?"
+      },
+      {
+        "id": 48,
+        "phrase": "Can you show me how to do this, please?"
+      },
+      {
+        "id": 49,
+        "phrase": "I need assistance with this problem. Can you help?"
+      },
+      {
+        "id": 50,
+        "phrase": "I'm struggling with this. Can you lend a hand?"
+      }
+    ]
+  }
+  

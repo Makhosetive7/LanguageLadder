@@ -1,38 +1,46 @@
 import styled from "styled-components"
 import { NavLink } from "react-router-dom"
-import flashcards1 from '../Assets/SVG/flashcards1.svg'
-import flashcards2 from '../Assets/SVG/flashcards2.svg'
-import flashcards3 from '../Assets/SVG/flashcards3.svg'
-import flashcards4 from '../Assets/SVG/flashcards4.svg'
-import flashcards5 from '../Assets/SVG/flashcards5.svg'
+import greeting from '../Assets/SVG/greeting.svg'
+import routine from '../Assets/SVG/routine.svg'
+import basicDescrition from '../Assets/SVG/basic_description.svg'
+import ask from '../Assets/SVG/ask.svg'
 
-const Flashcards = () => {
+
+const Expressions = () => {
     return (
         <Container>
             <WelcomeMessage>
-                <h1>FlashCards</h1>
-                <p>FlashCards helps you with learning words in Alphabetically order. in this section we are offering words categorised in five dificult levels</p>
+                <h1>Welcome to Expressions</h1>
+                <p>Discover useful expressions to enhance your English skills. Practice phrases categorized by their purpose and improve your fluency!</p>
             </WelcomeMessage>
 
+
             <Cards>
-                <Card className='flashCards'>
-                    <NavLink to='/flashCardLevel1'>
-                        <img src={flashcards1} alt='flashcards' />
-                        <p>beginner</p>
+                <Card className='socialInteraction'>
+                    <NavLink to='/socialInteraction'>
+                        <img src={greeting} alt='greeting' />
+                        <p>Greetings and Politeness</p>
                     </NavLink>
                 </Card>
-                <Card className='vocabulary'>
-                    <NavLink to='vocabulary'>
-                        <img src={flashcards2} alt='vocabulary' />
-                        <p>Middle</p>
+                <Card className='dailyRoutine'>
+                    <NavLink to='/dailyRoutine'>
+                        <img src={routine} alt='routine' />
+                        <p>Daily Routines</p>
                     </NavLink>
                 </Card>
-                <Card className='grammar'>
-                    <NavLink to='/grammar'>
-                        <img src={flashcards3} alt='grammar' />
-                        <p>Expect</p>
+                <Card className='BasicDescription'>
+                    <NavLink to='/basicDescription'>
+                        <img src={basicDescrition} alt='basicDescription' />
+                        <p>Basic Descriptions</p>
                     </NavLink>
                 </Card>
+                <Card className='askingHelp'>
+                    <NavLink to='/askingHelp'>
+                        <img src={ask} alt='ask' />
+                        <p>Asking for Help</p>
+                    </NavLink>
+                </Card>
+
             </Cards>
 
         </Container >
@@ -111,4 +119,4 @@ const Card = styled.div`
 
 
 
-export default Flashcards
+export default Expressions

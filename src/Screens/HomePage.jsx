@@ -4,7 +4,6 @@ import blackboard from "../Assets/SVG/blackboard.svg";
 import bookAndPen from '../Assets/SVG/bookAndPen.svg';
 import conversation from '../Assets/SVG/conversation.svg';
 import reading from '../Assets/SVG/reading.svg';
-import vocabulary from '../Assets/SVG/vocabulary.svg';
 import { NavLink } from 'react-router-dom';
 
 const HomePage = () => {
@@ -21,12 +20,6 @@ const HomePage = () => {
                         <p>Flashcards</p>
                     </NavLink>
                 </Card>
-                <Card className='vocabulary'>
-                    <NavLink to='vocabulary'>
-                        <img src={vocabulary} alt='vocabulary' />
-                        <p>Vocabulary</p>
-                    </NavLink>
-                </Card>
                 <Card className='grammar'>
                     <NavLink to='/grammar'>
                         <img src={conversation} alt='grammar' />
@@ -34,9 +27,9 @@ const HomePage = () => {
                     </NavLink>
                 </Card>
                 <Card className='pronunciation'>
-                    <NavLink to='pronunciation'>
+                    <NavLink to='expressions'>
                         <img src={reading} alt='pronunciation' />
-                        <p>Pronunciation</p>
+                        <p>Expressions</p>
                     </NavLink>
                 </Card>
                 <Card className='reading'>

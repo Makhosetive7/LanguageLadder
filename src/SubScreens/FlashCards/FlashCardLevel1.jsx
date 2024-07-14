@@ -9,14 +9,14 @@ const FlashCardLevel1 = () => {
         {Object.keys(Words).map((letter) => (
           <div key={letter}>
             <Letter>{letter}</Letter>
-            <WordList>
+            <CardList>
               {Words[letter].map((item, index) => (
                 <Card key={index}>
                   <img src={item.image} alt={item.word} />
                   <p>{item.word}</p>
                 </Card>
               ))}
-            </WordList>
+            </CardList>
           </div>
         ))}
       </WordsContainer>
@@ -42,13 +42,11 @@ const WordsContainer = styled.div`
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 `;
 
-const WordList = styled.div`
+const CardList = styled.div`
       display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-
-
 `;
 
 const Letter = styled.h2`

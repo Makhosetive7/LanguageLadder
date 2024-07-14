@@ -1,0 +1,214 @@
+{
+    "greetingsAndPoliteness": [
+        {
+            "id": 1,
+            "phrase": "Hello!",
+            "image": "https://www.svgrepo.com/show/402888/waving-hand.svg"
+        },
+        {
+            "id": 2,
+            "phrase": "Good morning!",
+            "image": "https://www.svgrepo.com/show/276633/ante-meridiem-morning.svg"
+        },
+        {
+            "id": 3,
+            "phrase": "Good afternoon!",
+            "image": "https://www.svgrepo.com/show/276652/post-meridiem-afternoon.svg"
+        },
+        {
+            "id": 4,
+            "phrase": "Good evening!",
+            "image": "https://www.svgrepo.com/show/406716/night-with-stars.svg"
+        },
+        {
+            "id": 5,
+            "phrase": "Hi there!",
+            "image": "https://www.svgrepo.com/show/420005/accessibility-management-talk.svg"
+        },
+        {
+            "id": 6,
+            "phrase": "Hey!",
+            "image": "https://www.svgrepo.com/show/331256/talk.svg"
+        },
+        {
+            "id": 7,
+            "phrase": "How are you?",
+            "image": "https://www.svgrepo.com/show/307394/meet-consider-deliberate-about-debate.svg"
+        },
+        {
+            "id": 8,
+            "phrase": "What's up?",
+            "image": "https://www.svgrepo.com/show/307070/punish-child-parent-parenting-punish.svg"
+        },
+        {
+            "id": 9,
+            "phrase": "How's it going?",
+            "image": "https://www.svgrepo.com/show/494485/talk-talk.svg"
+        },
+        {
+            "id": 10,
+            "phrase": "Nice to meet you.",
+            "image": "https://www.svgrepo.com/show/307395/meet-face-to-face-person-conflict-people.svg"
+        },
+        {
+            "id": 11,
+            "phrase": "Goodbye!",
+            "image": "https://www.svgrepo.com/show/78029/waving-goodbye.svg"
+        },
+        {
+            "id": 12,
+            "phrase": "See you later!",
+            "image": "https://www.svgrepo.com/show/115522/party.svg"
+        },
+        {
+            "id": 13,
+            "phrase": "Take care!",
+            "image": "https://www.svgrepo.com/show/8333/heart-in-hands.svg"
+        },
+        {
+            "id": 14,
+            "phrase": "Have a good day!",
+            "image": "https://www.svgrepo.com/show/23383/man-child-and-balloons.svg"
+        },
+        {
+            "id": 15,
+            "phrase": "Thank you!",
+            "image": "https://www.svgrepo.com/show/400628/pray.svg"
+        },
+        {
+            "id": 18,
+            "phrase": "Thanks a lot!",
+            "image": "https://www.svgrepo.com/show/264712/prayer-pray.svg"
+        },
+        {
+            "id": 19,
+            "phrase": "Please.",
+            "image": "https://www.svgrepo.com/show/307366/implore-request-ask-beg.svg"
+        },
+        {
+            "id": 20,
+            "phrase": "Sorry.",
+            "image": "https://www.svgrepo.com/show/398092/pleading-face.svg"
+        },
+        {
+            "id": 21,
+            "phrase": "Can you help me?",
+            "image": "https://www.svgrepo.com/show/398092/pleading-face.svg"
+        },
+        {
+            "id": 22,
+            "phrase": "I don't understand.",
+            "image": "https://www.svgrepo.com/show/5645/confused-face.svg"
+        },
+        {
+            "id": 23,
+            "phrase": "Could you repeat that?",
+            "image": "https://www.svgrepo.com/show/497451/repeat.svg"
+        },
+        {
+            "id": 24,
+            "phrase": "What time is it?",
+            "image": "https://www.svgrepo.com/show/530409/time.svg"
+        },
+        {
+            "id": 25,
+            "phrase": "Where is the restroom?",
+            "image": "https://www.svgrepo.com/show/302209/toilet-restroom.svg"
+        },
+        {
+            "id": 26,
+            "phrase": "Can I have a menu, please?",
+            "image": "https://www.svgrepo.com/show/206369/restaurant-plate.svg"
+        },
+        {
+            "id": 27,
+            "phrase": "What's your name?",
+            "image": "https://www.svgrepo.com/show/402199/name-badge.svg"
+        },
+        {
+            "id": 28,
+            "phrase": "Nice weather today, isn't it?",
+            "image": "https://www.svgrepo.com/show/236636/sunny-sun.svg"
+        },
+        {
+            "id": 29,
+            "phrase": "How's your day been so far?",
+            "image": "https://www.svgrepo.com/show/419460/day-heart-love-16.svg"
+        },
+        {
+            "id": 30,
+            "phrase": "I hope you're doing well.",
+            "image": "https://www.svgrepo.com/show/503997/care-treatment-heart.svg"
+        },
+        {
+            "id": 31,
+            "phrase": "Do you come here often?",
+            "image": "https://www.svgrepo.com/show/494485/talk-talk.svg"
+        },
+        {
+            "id": 32,
+            "phrase": "Would you like some coffee?",
+            "image": "https://www.svgrepo.com/show/486316/coffee-machine.svg"
+        },
+        {
+            "id": 33,
+            "phrase": "Do you have any plans for the weekend?",
+            "image": "https://www.svgrepo.com/show/225992/day-week.svg"
+        },
+        {
+            "id": 34,
+            "phrase": "Let's catch up sometime.",
+            "image": "https://www.svgrepo.com/show/131773/friends-talking.svg"
+        },
+        {
+            "id": 35,
+            "phrase": "It was nice talking to you.",
+            "image": "https://www.svgrepo.com/show/6900/couple-of-men-drinking-in-a-bar.svg"
+        },
+        {
+            "id": 36,
+            "phrase": "Could I borrow your pen for a moment?",
+            "image": "https://www.svgrepo.com/show/397726/pen.svg"
+        },
+        {
+            "id": 37,
+            "phrase": "Nice meeting you.",
+            "image": "https://www.svgrepo.com/show/509436/meeting-point.svg"
+        },
+        {
+            "id": 38,
+            "phrase": "I'm sorry to bother you, but...",
+            "image": "https://www.svgrepo.com/show/88474/meeting-of-a-couple-of-men.svg"
+        },
+        {
+            "id": 39,
+            "phrase": "Thanks for your help.",
+            "image": "https://www.svgrepo.com/show/242227/meeting.svg"
+        },
+        {
+            "id": 40,
+            "phrase": "Have a safe trip!",
+            "image": "https://www.svgrepo.com/show/513947/travel-heart-suitcase.svg"
+        },
+        {
+            "id": 41,
+            "phrase": "Congratulations!",
+            "image": "https://www.svgrepo.com/show/397713/party-popper.svg"
+        },
+        {
+            "id": 42,
+            "phrase": "Happy birthday!",
+            "image": "https://www.svgrepo.com/show/266165/party.svg"
+        },
+        {
+            "id": 43,
+            "phrase": "Merry Christmas!",
+            "image": "https://www.svgrepo.com/show/492733/christmas-tree.svg"
+        },
+        {
+            "id": 44,
+            "phrase": "Happy New Year!",
+            "image": "https://www.svgrepo.com/show/494439/christmas-gifts.svg"
+        }
+    ]
+}
