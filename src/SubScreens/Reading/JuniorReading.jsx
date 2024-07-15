@@ -1,6 +1,8 @@
 import styled from "styled-components"
 import axios from 'axios'
 import { useEffect, useState } from "react"
+import { SlVolume2 } from "react-icons/sl";
+import { MdOutlineFavoriteBorder } from "react-icons/md";
 
 const JuniorReading = () => {
     const [reading, setReading] = useState([])
@@ -28,7 +30,11 @@ const JuniorReading = () => {
                             <img src={data.image} alt={data.title} />
                             <div className="storyDetails">
                                 <h2>{data.title}</h2>
-                                <p>{`${data.content.slice(0, 200)}...`}</p>
+                                <p>{`${data.content.slice(0, 400)}...`}</p>
+                                <section>
+                                    <button><SlVolume2 /></button>
+                                    <button> <MdOutlineFavoriteBorder /></button>
+                                </section>
                             </div>
                         </Card>
                     ))}
@@ -64,9 +70,11 @@ const CardList = styled.div`
     align-items: center;
 `
 
+
+
 const Card = styled.div`
     width: 100%;
-    margin: 10px;
+    margin-bottom: 16px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -77,11 +85,13 @@ const Card = styled.div`
     img {
         width: 40%;
         height: 200px;
-        margin-bottom: 10px;
+        margin: 10px;
     }
 
     .storyDetails {
-        flex: 1;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
         padding: 10px;
         h2 {
         margin: 0 0 10px 0;
@@ -95,8 +105,27 @@ const Card = styled.div`
         color: #333;
     }
     }
+    section{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        margin-top: 20px;
+        padding: 16px;
+        button{
+            display: flex;
+            align-items: center;
+            border: none;
+            font-size: 20px;
+            color: #555;
+            transition: color 0.3s;
 
-  
+            &:hover {
+                color: #000;
+            }
+        }
+
+    }
 `
 
 export default JuniorReading
