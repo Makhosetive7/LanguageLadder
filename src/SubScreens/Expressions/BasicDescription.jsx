@@ -1,10 +1,12 @@
 import styled from "styled-components"
 import axios from "axios"
 import { useEffect, useState } from "react"
+import { useSpeech } from "../../ContextAPI/SpeechContext"
+
 
 const BasicDescription = () => {
-
     const [description, setDescription] = useState([])
+    const {speak} = useSpeech()
 
 
     const fetchDescription = async () => {
@@ -17,17 +19,20 @@ const BasicDescription = () => {
         }
     }
 
-
     useEffect(() => {
         fetchDescription()
     }, [])
+
+    const handleSpeak = (phrase) =>{
+        speak(phrase)
+    }
 
     return (
         <Container>
             <BasicDescriptionContainer>
                 <CardList>
                     {description.map((data, index) => (
-                        <Card key={index}>
+                        <Card key={index} onClick={() => handleSpeak(data.phrase)}>
                             <img src={data.image} alt="data.id" />
                             <p>{data.phrase}</p>
                         </Card>

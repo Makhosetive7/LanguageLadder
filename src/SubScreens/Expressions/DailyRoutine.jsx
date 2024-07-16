@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react"
 import styled from "styled-components"
 import axios from "axios"
+import { useSpeech } from "../../ContextAPI/SpeechContext"
 
 const DailyRoutine = () => {
-
     const [routine, setRoutine] = useState([])
+    const { speak } = useSpeech()
 
 
     const fetchRoutine = async () => {
@@ -22,12 +23,17 @@ const DailyRoutine = () => {
         fetchRoutine()
     }, [])
 
+    const handleSpeak = (phrase) => {
+        speak(phrase)
+        console.log("reading phrase")
+    }
+
     return (
         <Container>
             <DailyRoutineContainer>
                 <CardList>
                     {routine.map((data, index) => (
-                        <Card key={index}>
+                        <Card key={index} onClick={() => handleSpeak(data.phrase)}>
                             <img src={data.image} alt="data.id" />
                             <p>{data.phrase}</p>
                         </Card>

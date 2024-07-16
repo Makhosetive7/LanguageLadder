@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react"
 import styled from "styled-components"
 import axios from "axios"
+import { useSpeech } from "../../ContextAPI/SpeechContext"
 
 const AskForHelp = () => {
     const [help, setHelp] = useState([])
+    const { speak } = useSpeech()
 
     const fetchAskForHelp = async () => {
         try {
@@ -18,12 +20,16 @@ const AskForHelp = () => {
     useEffect(() => {
         fetchAskForHelp()
     }, [])
+
+    const handleSpeak = (phrase) => {
+        speak(phrase)
+    }
     return (
         <Container>
             <AskForHelpContainer>
                 <CardList>
                     {help.map((data, index) => (
-                        <Card key={index}>
+                        <Card key={index} onClick={() => handleSpeak(data.phrase)}>
                             <p>{data.phrase}</p>
                         </Card>
                     ))}

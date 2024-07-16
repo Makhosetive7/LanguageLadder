@@ -1,9 +1,11 @@
 import styled from "styled-components"
 import axios from "axios"
 import { useEffect, useState } from "react"
+import { useSpeech } from "../../ContextAPI/SpeechContext"
 
 const GreetingAndPoliteness = () => {
-    const [greetings, setGreetings] = useState([])  // Initialize as an empty array
+    const [greetings, setGreetings] = useState([])
+    const { speak }= useSpeech()
 
     const fetchGreetingsAndPoliteness = async () => {
         try {
@@ -19,12 +21,19 @@ const GreetingAndPoliteness = () => {
         fetchGreetingsAndPoliteness()
     }, [])
 
+
+    const handleSpeak = (phrase) => {
+        speak(phrase)
+        console.log("reading phrase")
+    }
+
+
     return (
         <Container>
             <GreetingAndPolitenessContainer>
                 <CardList>
                     {greetings.map((data, index) => (
-                        <Card key={index}>
+                        <Card key={index} onClick={() => handleSpeak(data.phrase)}>
                             <img src={data.image} alt="data.id" />
                             <p>{data.phrase}</p>
                         </Card>

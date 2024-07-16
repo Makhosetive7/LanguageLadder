@@ -1,8 +1,18 @@
 import React from "react";
 import styled from "styled-components";
 import Words from "./Words/Words.json";
+import { useSpeech } from "../../ContextAPI/SpeechContext";
+
 
 const FlashCardLevel1 = () => {
+  const { speak } = useSpeech();
+
+  const handleSpeak = (Word) => {
+    speak(Word);
+    console.log("Reading...")
+  };
+
+
   return (
     <Container>
       <WordsContainer>
@@ -11,7 +21,7 @@ const FlashCardLevel1 = () => {
             <Letter>{letter}</Letter>
             <CardList>
               {Words[letter].map((item, index) => (
-                <Card key={index}>
+                <Card key={index} onClick={() => handleSpeak(item.word)}>
                   <img src={item.image} alt={item.word} />
                   <p>{item.word}</p>
                 </Card>
