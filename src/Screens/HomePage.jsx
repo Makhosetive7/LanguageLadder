@@ -14,30 +14,47 @@ const HomePage = () => {
                 <p>We offer comprehensive, interactive learning with structured lessons, engaging exercises, and community support for an effective journey.</p>
             </WelcomeMessage>
             <Cards>
-                <Card className='flashCards'>
-                    <NavLink to='/flashCards'>
-                        <img src={blackboard} alt='flashcards' />
-                        <p>Flashcards</p>
-                    </NavLink>
-                </Card>
-                <Card className='grammar'>
-                    <NavLink to='/grammar'>
-                        <img src={conversation} alt='grammar' />
-                        <p>Grammar</p>
-                    </NavLink>
-                </Card>
-                <Card className='pronunciation'>
-                    <NavLink to='expressions'>
-                        <img src={reading} alt='pronunciation' />
-                        <p>Expressions</p>
-                    </NavLink>
-                </Card>
-                <Card className='reading'>
-                    <NavLink to='reading'>
-                        <img src={bookAndPen} alt='reading' />
-                        <p>Reading</p>
-                    </NavLink>
-                </Card>
+                <Stack>
+                    <OverLay>
+                        <Card className='flashCards'>
+                            <NavLink to='/flashCards'>
+                                <img src={blackboard} alt='flashcards' />
+                                <p>Flashcards</p>
+                            </NavLink>
+                        </Card>
+                    </OverLay>
+                </Stack>
+                <Stack>
+                    <OverLay>
+                        <Card className='grammar'>
+                            <NavLink to='/grammar'>
+                                <img src={conversation} alt='grammar' />
+                                <p>Grammar</p>
+                            </NavLink>
+                        </Card>
+                    </OverLay>
+                </Stack>
+
+                <Stack>
+                    <OverLay>
+                        <Card className='pronunciation'>
+                            <NavLink to='expressions'>
+                                <img src={reading} alt='pronunciation' />
+                                <p>Expressions</p>
+                            </NavLink>
+                        </Card>
+                    </OverLay>
+                </Stack>
+                <Stack>
+                    <OverLay>
+                        <Card className='reading'>
+                            <NavLink to='reading'>
+                                <img src={bookAndPen} alt='reading' />
+                                <p>Reading</p>
+                            </NavLink>
+                        </Card>
+                    </OverLay>
+                </Stack>
             </Cards>
         </Container>
     );
@@ -77,7 +94,6 @@ const Cards = styled.div`
     max-width: 1000px;
     padding: 20px;
     box-sizing: border-box;
-    background-color: white;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 `;
@@ -85,15 +101,10 @@ const Cards = styled.div`
 const Card = styled.div`
     width: 200px;
     height: 200px;
-    margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #f8f9fa;
-    border: 1px solid #dee2e6;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
     img {
         width: 80px;
@@ -112,5 +123,49 @@ const Card = styled.div`
         color: #435585;
     }
 `;
+const Stack = styled.div`
+	transition: .25s ease;
+    margin: 2rem;
+	&:hover {			
+		transform: rotate(5deg);
+		.card:before {
+			transform: translate(-2%) rotate(-4deg);
+		}	
+		.card:after {
+			transform: translate(2%) rotate(4deg);
+		}
+	}
+`
+const OverLay = styled.div`
+	aspect-ratio: 3 / 2;
+	border: 1px solid #005B41;
+	background-color: #FFF;
+	position: relative;
+	transition: .15s ease;
+	cursor: pointer;
+	padding: 5% 5% 15% 5%;
+	&:before, &:after {
+		content: "";
+		display: block;
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		border: 1px solid #435585;
+		background-color: #FFF;
+		transform-origin: center center;
+		z-index: -1;
+		transition: .15s ease;
+		top: 0;
+		left: 0;
+	}
+	
+	&:before {
+		transform: translate(-2%) rotate(-10deg);
+	}
+	
+	&:after {
+		transform: translate(2%) rotate(6deg);
+	}
+`
 
 export default HomePage;

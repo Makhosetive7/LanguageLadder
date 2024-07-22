@@ -21,10 +21,14 @@ const FlashCardLevel1 = () => {
             <Letter>{letter}</Letter>
             <CardList>
               {Words[letter].map((item, index) => (
-                <Card key={index} onClick={() => handleSpeak(item.word)}>
-                  <img src={item.image} alt={item.word} />
-                  <p>{item.word}</p>
-                </Card>
+                <Stack>
+                  <OverLay>
+                    <Card key={index} onClick={() => handleSpeak(item.word)}>
+                      <img src={item.image} alt={item.word} />
+                      <p>{item.word}</p>
+                    </Card>
+                  </OverLay>
+                </Stack>
               ))}
             </CardList>
           </div>
@@ -47,7 +51,6 @@ const WordsContainer = styled.div`
   margin-top: 20px;
   margin-bottom: 20px;
   box-sizing: border-box;
-  background-color: white;
   border-radius: 12px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 `;
@@ -68,17 +71,12 @@ font-weight: 900;
 `
 
 const Card = styled.div`
-  width: 200px;
-  height: 200px;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #f8f9fa;
-  border: 1px solid #dee2e6;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
   img {
     width: 80px;
@@ -93,5 +91,51 @@ const Card = styled.div`
     color: #333;
   }
 `;
+
+const Stack = styled.div`
+	transition: .25s ease;
+    margin: 2rem;
+	&:hover {			
+		transform: rotate(5deg);
+		.card:before {
+			transform: translate(-2%) rotate(-4deg);
+		}	
+		.card:after {
+			transform: translate(2%) rotate(4deg);
+		}
+	}
+`
+const OverLay = styled.div`
+	aspect-ratio: 3 / 2;
+	border: 1px solid #005B41;
+	background-color: #FFF;
+	position: relative;
+	transition: .15s ease;
+	cursor: pointer;
+	padding: 5% 5% 15% 5%;
+	&:before, &:after {
+		content: "";
+		display: block;
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		border: 1px solid #435585;
+		background-color: #FFF;
+		transform-origin: center center;
+		z-index: -1;
+		transition: .15s ease;
+		top: 0;
+		left: 0;
+	}
+	
+	&:before {
+		transform: translate(-2%) rotate(-10deg);
+	}
+	
+	&:after {
+		transform: translate(2%) rotate(6deg);
+	}
+
+`
 
 export default FlashCardLevel1;
