@@ -1,8 +1,7 @@
 import styled from "styled-components"
 import axios from 'axios'
 import { useEffect, useState } from "react"
-import { SlVolume2 } from "react-icons/sl";
-import { MdOutlineFavoriteBorder } from "react-icons/md";
+import { MdOutlineScreenshotMonitor } from "react-icons/md";
 
 const MidReading = () => {
     const [reading, setReading] = useState([])
@@ -32,8 +31,7 @@ const MidReading = () => {
                                 <h2>{data.title}</h2>
                                 <p>{`${data.content.slice(0, 400)}...`}</p>
                                 <section>
-                                    <button><SlVolume2 /></button>
-                                    <button> <MdOutlineFavoriteBorder /></button>
+                                    <button> <MdOutlineScreenshotMonitor /></button>
                                 </section>
                             </div>
                         </Card>
