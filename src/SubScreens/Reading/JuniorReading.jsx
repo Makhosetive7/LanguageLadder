@@ -1,24 +1,33 @@
-import styled from "styled-components"
-import axios from 'axios'
-import { useEffect, useState } from "react";
-import { MdOutlineScreenshotMonitor } from "react-icons/md";
+// JuniorReading.js
+import React, { useEffect, useState } from 'react';
+import styled from 'styled-components';
+import axios from 'axios';
+import { MdOutlineScreenshotMonitor } from 'react-icons/md';
+import { useModal } from '../../ContextAPI/ModalsContext';
+import Modal from './Modal';
 
 const JuniorReading = () => {
-    const [reading, setReading] = useState([])
+    const [reading, setReading] = useState([]);
+    const { openModal, setModalContent } = useModal();
 
     const fetchStories = async () => {
         try {
-            const response = await axios.get(`/readingData/juniorStories.json`)
-            setReading(response.data.juniorStories)
-            console.log(response.data.juniorStories)
+            const response = await axios.get(`/readingData/juniorStories.json`);
+            setReading(response.data.juniorStories);
+            console.log(response.data.juniorStories);
         } catch (error) {
-            console.log(error)
+            console.log(error);
         }
-    }
+    };
 
     useEffect(() => {
-        fetchStories()
-    }, [])
+        fetchStories();
+    }, []);
+
+    const handleOpenModal = (data) => {
+        setModalContent(data);
+        openModal();
+    };
 
     return (
         <Container>
@@ -31,22 +40,23 @@ const JuniorReading = () => {
                                 <h2>{data.title}</h2>
                                 <p>{`${data.content.slice(0, 400)}...`}</p>
                                 <section>
-                                    <button><MdOutlineScreenshotMonitor/></button>
+                                    <button onClick={() => handleOpenModal(data)}><MdOutlineScreenshotMonitor /></button>
                                 </section>
                             </div>
                         </Card>
                     ))}
                 </CardList>
             </ReadingContainer>
+            <Modal />
         </Container>
-    )
-}
+    );
+};
 
 const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-`
+`;
 
 const ReadingContainer = styled.div`
     width: 80%;
@@ -58,7 +68,7 @@ const ReadingContainer = styled.div`
     background-color: white;
     border-radius: 12px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
-`
+`;
 
 const CardList = styled.div`
     display: flex;
@@ -66,9 +76,7 @@ const CardList = styled.div`
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-`
-
-
+`;
 
 const Card = styled.div`
     width: 100%;
@@ -80,6 +88,7 @@ const Card = styled.div`
     border: 1px solid #dee2e6;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
     img {
         width: 40%;
         height: 200px;
@@ -91,26 +100,29 @@ const Card = styled.div`
         align-items: flex-start;
         flex-direction: column;
         padding: 10px;
+
         h2 {
-        margin: 0 0 10px 0;
-        font-size: 16px;
-        color: #333;
+            margin: 0 0 10px 0;
+            font-size: 16px;
+            color: #333;
+        }
+
+        p {
+            margin: 0;
+            font-size: 12px;
+            color: #333;
+        }
     }
 
-    p {
-        margin: 0;
-        font-size: 12px;
-        color: #333;
-    }
-    }
-    section{
+    section {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         width: 100%;
         margin-top: 20px;
         padding: 16px;
-        button{
+
+        button {
             display: flex;
             align-items: center;
             border: none;
@@ -122,8 +134,7 @@ const Card = styled.div`
                 color: #000;
             }
         }
-
     }
-`
+`;
 
-export default JuniorReading
+export default JuniorReading;

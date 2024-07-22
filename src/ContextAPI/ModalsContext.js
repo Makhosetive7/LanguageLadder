@@ -1,27 +1,26 @@
+// ModalContext.js
 import React, { createContext, useContext, useState } from 'react';
 
-const modalContext = createContext({
+const ModalContext = createContext({
     isOpen: false,
-    openModal: () => { },
-    closeModal: () => { },
-})
+    modalContent: null,
+    openModal: () => {},
+    closeModal: () => {},
+    setModalContent: () => {},
+});
 
-export const useModal = () => useContext(modalContext)
+export const useModal = () => useContext(ModalContext);
 
 export const ModalProvider = ({ children }) => {
-    const [isOpen, setIsOpen] = useState(false)
+    const [isOpen, setIsOpen] = useState(false);
+    const [modalContent, setModalContent] = useState(null);
 
-
-    const openModal = () => setIsOpen(true)
-    const closeModal = () => setIsOpen(false)
+    const openModal = () => setIsOpen(true);
+    const closeModal = () => setIsOpen(false);
 
     return (
-        <modalContext.Provider value={{ isOpen, openModal, closeModal }}>
+        <ModalContext.Provider value={{ isOpen, openModal, closeModal, modalContent, setModalContent }}>
             {children}
-        </modalContext.Provider>
-    )
-
-
-
-}
-
+        </ModalContext.Provider>
+    );
+};

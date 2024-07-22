@@ -2,9 +2,12 @@ import styled from "styled-components"
 import axios from 'axios'
 import { useEffect, useState } from "react"
 import { MdOutlineScreenshotMonitor } from "react-icons/md";
+import { useModal } from '../../ContextAPI/ModalsContext';
+import Modal from "./Modal";
 
 const ExpectReading = () => {
     const [reading, setReading] = useState([])
+    const { openModal, setModalContent } = useModal();
 
     const fetchStories = async () => {
         try {
@@ -20,6 +23,11 @@ const ExpectReading = () => {
         fetchStories()
     }, [])
 
+    const handleOpenModal = (data) => {
+        setModalContent(data);
+        openModal();
+    };
+
     return (
         <Container>
             <ReadingContainer>
@@ -31,13 +39,14 @@ const ExpectReading = () => {
                                 <h2>{data.title}</h2>
                                 <p>{`${data.content.slice(0, 400)}...`}</p>
                                 <section>
-                                    <button> < MdOutlineScreenshotMonitor /></button>
+                                    <button onClick={() => handleOpenModal(data)}><MdOutlineScreenshotMonitor /></button>
                                 </section>
                             </div>
                         </Card>
                     ))}
                 </CardList>
             </ReadingContainer>
+            <Modal />
         </Container>
     )
 }
